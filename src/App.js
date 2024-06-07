@@ -1,7 +1,7 @@
 import './App.css';
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import LoadingSpinner from './components/Loading';
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -18,7 +18,9 @@ function App() {
   }
 
   return (
-    <div>Hi</div>
+    <div>
+      <p>Hi</p>
+    </div>
   );
 }
 

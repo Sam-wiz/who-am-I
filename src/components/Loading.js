@@ -50,7 +50,7 @@ const LoadingSpinner = () => {
       <canvas ref={canvasRef} className="binary-canvas" />
       <div className="loading-image-container">
         <img src={img} alt="Loading" className="loading-image" />
-        <p className="loading-text">Welcome to my page</p>
+        <p className="loading-text">Please Wait</p>
       </div>
     </div>
   );
